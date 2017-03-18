@@ -4,8 +4,11 @@
     overflow: hidden;
     height: 100px;
     display: flex;
-        align-items: flex-end;
-        justify-content: flex-end
+        /*align-items: flex-end;
+        justify-content: center;*/
+        justify-content:space-around;
+align-items:flex-end;
+        font-family: 'Hind', sans-serif;
 }
 
 /*logo*/
