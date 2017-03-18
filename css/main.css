@@ -1,14 +1,18 @@
 /* Add a black background color to the top navigation */
 .navBar {
-    background-color: gray;
+    background-color: transparent;
     overflow: hidden;
     height: 100px;
+    width: 100%;
+    border-top: 2px solid gray;
+    border-bottom: solid gray 2px;
     display: flex;
         /*align-items: flex-end;
         justify-content: center;*/
         justify-content:space-around;
 align-items:flex-end;
         font-family: 'Hind', sans-serif;
+       position: fixed;
 }
 
 /*logo*/
@@ -27,7 +31,8 @@ align-items:flex-end;
 .navBar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    /*color: #f2f2f2;*/
+    color: gray;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -38,12 +43,16 @@ align-items:flex-end;
 
 /* Change the color of links on hover */
 .navBar a:hover {
-    background-color: #ddd;
-    color: black;
+  /*  background-color: #ddd;*/
+    color: pink;
+
+    border-bottom: solid pink 2px;
 }
 
 /* Add a color to the active/current link */
 .navBar a.active {
     background-color: #4CAF50;
-    color: white;
+    color: gray;
 }
+/*
+===================================MAIN===================================*/
